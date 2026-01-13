@@ -81,6 +81,32 @@
     </nav>
   </header>
   <section class="games">
+  <h2>🎮 Popular Games</h2>
+
+  <div class="game-list">
+    <!-- Game 1 -->
+    <div class="game-card">
+      <h3>Free Fire</h3>
+      <p>Best battle royale mobile game</p>
+      <a href="https://play.google.com/store/apps/details?id=com.dts.freefireth" target="_blank">Play Now</a>
+    </div>
+
+    <!-- Game 2 -->
+    <div class="game-card">
+      <h3>BGMI</h3>
+      <p>Popular Indian action game</p>
+      <a href="https://play.google.com/store/apps/details?id=com.pubg.imobile" target="_blank">Play Now</a>
+    </div>
+
+    <!-- Game 3 -->
+    <div class="game-card">
+      <h3>GTA 5</h3>
+      <p>Open world PC game</p>
+      <a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" target="_blank">Play Now</a>
+    </div>
+  </div>
+</section>
+  <section class="games">
   <h2>Popular Games</h2>
 
   <div class="game-list">
@@ -100,6 +126,44 @@
     </div>
   </div>
 </section>
+  <style>
+.games {
+  padding: 40px;
+  background: #0b1d3a;
+  color: white;
+  text-align: center;
+}
+
+.game-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.game-card {
+  background: #112b5c;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.game-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #38bdf8;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.game-card a:hover {
+  background: #0ea5e9;
+  color: #fff;
+}
+</style>
   <section class="hero">
     <h2>Welcome to My Gaming Website</h2>
     <p>Latest PC & Mobile games, gameplay videos aur gaming updates ek hi jagah</p>
